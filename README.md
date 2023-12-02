@@ -1,3 +1,4 @@
+
 ### Hi there 👋 , I'm Nhat
 
 <!--
@@ -16,20 +17,33 @@ Here are some ideas to get you started:
 -->
 
 <br>
-```python
-class DevComentry():
-    
-  def __init__(self):
-    self.name = "Nguyen Van Tan";
-    self.username = "doctor-blue";
-    self.location = "Ha Noi, VietNam";
-    self.youtube = "https://www.youtube.com/c/DevComentry";
-    self.web = "https://van-tan.github.io";
-    self.blog = "https://doctorblue.github.io"
-  
-  def __str__(self):
-    return self.name
 
-if __name__ == '__main__':
-    me = DevComentry()
+```java
+public class Nhat(){
+  private String name;
+  private int age;
+  private String username;
+  private String location;
+  private String facebook;
+  public Nhat(){
+    name = "Hoang Xuan Nhat";
+    age = 20;
+    username = "kageyoshi1504"
+    location = "Trieu Phong , Quang Tri"
+    facebook = "https://www.facebook.com/kageyoshi1504"
+  }
+  public static void main(String args[]){
+    Nhat nhat = new Nhat();
+  }
+
+}
 ```
+
+### My Staticstics 
+</br>
+<p align="left">
+   <a href="https://abhigyantrips.dev/">
+  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=kageyoshi1504&show_icons=true&theme=gruvbox&hide_border=true" />
+  </a>
+        
+</p>
